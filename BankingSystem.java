@@ -1,12 +1,11 @@
-
 import java.util.Scanner;
 
  class BankingSystem{
 
     public static void main(String[] args) {
          
-        BankAccount obj = new BankAccount("Danilo", "123456c ");
-        obj.showMenu();
+        // BankAccount obj = new BankAccount("Danilo", "123456c ");
+        // obj.showMenu();
     }
     
 }
@@ -57,7 +56,7 @@ class BankAccount{
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Welcome " + customersName);
-        System.out.println("Your ID isDa " + customerId);
+        System.out.println("Your ID is " + customerId);
         System.out.println("\n");
 
         System.out.println("A : Check your balance");
